@@ -3,5 +3,14 @@ export default {
     components: true,
     css: [
         './assets/css/main.css'
-    ]
+    ],
+    modules: [
+        '@nuxtjs/pwa'
+    ],
+    pwa: {
+        manifest: {
+            name: 'Flask Academy',
+            lang: 'es'
+        }
+    }
 }
