@@ -4,7 +4,6 @@
 <nav role="navigation">
     <Isologo/>
     <Item to="/blog" label="Blog"></Item>
-    <Item to="/community" label="Comunidad"></Item>
 </nav>
 
 </template>
