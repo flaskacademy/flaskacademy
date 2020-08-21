@@ -20,7 +20,6 @@ nav{
     height: 64px;
 
     border-bottom: 1px solid #EEE;
-
 }
 
 </style>

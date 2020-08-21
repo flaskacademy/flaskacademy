@@ -9,8 +9,15 @@ export default {
     ],
     pwa: {
         manifest: {
-            name: 'Flask Academy',
-            lang: 'es'
+            name: 'Flask Academy: Aprende desarrollo Web.',
+            short_name: 'FlaskAcademy',
+            lang: 'es',
+            start_url: '/'
         }
+    },
+    head: {
+        link: [
+            { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap' }
+        ]
     }
 }
