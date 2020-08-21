@@ -2,7 +2,8 @@
 <template>
 
 <nav role="navigation">
-    <NuxtLink to="/">Flask Academy</NuxtLink>
+    <Isologo/>
+    <Item to="/blog" label="Blog"></Item>
 </nav>
 
 </template>
@@ -13,11 +14,13 @@ nav{
     display: flex;
     align-items: center;
 
-    padding: 0;
+    padding: 0 1rem;
     margin: 0;
 
+    box-sizing: border-box;
+
     width: 100vw;
-    height: 64px;
+    height: 4rem;
 
     border-bottom: 1px solid #EEE;
 }

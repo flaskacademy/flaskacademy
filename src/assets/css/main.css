@@ -1,6 +1,21 @@
+:root{
+    --color-primary: #2080FF;
+    --color-primary-transparent: #2080FF10;
+}
+
+html{
+    font-size: 16px;
+}
+
 body{
     margin: 0;
     padding: 0;
 
     font-family: 'Heebo', sans-serif;
+}
+
+@media screen and (max-width: 600px){
+    html{
+        font-size: 14px;
+    }
 }
