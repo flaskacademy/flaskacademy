@@ -7,7 +7,7 @@
 <style scoped>
 
 .item{
-    transition: .5s;
+    transition: .25s;
 
     text-decoration: none;
     color: #888;
@@ -18,6 +18,10 @@
 }
 
 .item:hover{
+    background: #00000008;
+}
+
+.item.nuxt-link-active:hover{
     background: var(--color-primary-transparent);
 }
 
