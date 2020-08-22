@@ -3,6 +3,7 @@
 
 <nav role="navigation">
     <Isologo/>
+    <Search/>
     <Item to="/blog" label="Blog"></Item>
 </nav>
 
