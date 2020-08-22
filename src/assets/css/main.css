@@ -6,6 +6,10 @@
     --radius-secondary: 12px;
 }
 
+*:focus{
+    outline: none;
+}
+
 html{
     font-size: 16px;
 

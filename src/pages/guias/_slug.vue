@@ -1,11 +1,5 @@
 <template>
     <div class="layout">
-        <div class="side-bar">
-            <h3>Contenido</h3>
-            <a href="#" class="item active">Empezar</a>
-            <a href="#" class="item">Auth</a>
-            <a href="#" class="item">Auth</a>
-        </div>
         <div class="content">
             <div class="section">
                 <div class="banner">
@@ -50,15 +44,6 @@
     background: #FFF;
 }
 
-.side-bar{
-    width: 300px;
-    padding: 1rem;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-
 .side-bar .item{
     width: 100%;
     text-decoration: none;
@@ -67,6 +52,14 @@
     padding: 0.6rem 1rem;
     border-radius: var(--radius-primary);
     box-sizing: border-box;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 0;
 }
 
 .side-bar .item:hover{
@@ -81,6 +74,7 @@
 .banner{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
     gap: 1rem;
 }
 
@@ -96,17 +90,12 @@ h2{
     color: #888;
 }
 
-.content{
-    width: 100%;
-    box-sizing: border-box;
-}
-
 .section{
     background: #FFF;
     border-radius: var(--radius-secondary);
     width: 100%;
     max-width: 800px;
-    margin: 2rem auto;
+    margin: 1rem auto;
     padding: 2rem;
     box-sizing: border-box;
 }
@@ -115,12 +104,15 @@ h2{
     .side-bar{
         display: none;
     }
+    .section{
+        padding: 1rem;
+    }
 }
 
 </style>
 
 <script>
 export default {
-    layout: 'guide'
+    layout: 'fullwidth'
 }
 </script>

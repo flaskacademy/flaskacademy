@@ -7,8 +7,13 @@
         "start": "nuxt start"
     },
     "dependencies": {
+        "@nuxtjs/firebase": "^6.1.1",
         "@nuxtjs/pwa": "^3.0.1",
         "axios": "^0.20.0",
+        "firebase": "^7.19.0",
         "nuxt": "^2.14.3"
+    },
+    "devDependencies": {
+        "@nuxtjs/vuetify": "^1.11.2"
     }
 }

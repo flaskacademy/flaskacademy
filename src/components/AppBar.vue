@@ -4,7 +4,12 @@
 <nav role="navigation">
     <Isologo/>
     <Search/>
-    <Item to="/guides" label="Guías"></Item>
+    <div v-if="$store.state.user">
+        <div v-if="$store.state.user.claims">
+            <Item v-if="$store.state.user.claims.admin" to="/admin" label="Admin"/>
+        </div>
+        <Item v-if="$store.state.user" to="/salir" label="Salir"/>
+    </div>
 </nav>
 
 </template>
@@ -20,12 +25,11 @@ nav{
     padding: 0 1rem;
     margin: 0;
 
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 
-    width: 100vw;
+    width: 100%;
     height: 4rem;
 
-    border-bottom: 1px solid #EEE;
     background: #FFF;
 }
 
