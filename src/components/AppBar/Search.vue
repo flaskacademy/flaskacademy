@@ -27,12 +27,9 @@
     padding: .4rem 1rem;
     display: flex;
     align-items: center;
-    background: #00000010;
+    box-sizing: border-box;
+    background: #F8F8F8;
     cursor:pointer;
-}
-
-.search:hover, .search.active{
-    background: #00000018;
 }
 
 .search .icon{

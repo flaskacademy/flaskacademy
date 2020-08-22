@@ -14,7 +14,7 @@
 
     padding: .4rem 1rem;
 
-    border-radius: 8px;
+    border-radius: var(--radius-primary);
 }
 
 .item:hover{

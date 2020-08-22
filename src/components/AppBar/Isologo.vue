@@ -1,6 +1,6 @@
 <template>
     <NuxtLink to="/" class="isologo">
-        <img src="/images/branding/isotype.png" alt="isotype"/>
+        <img src="/images/branding/isotype.svg" alt="isotype"/>
         Flask Academy
     </NuxtLink>
 </template>
@@ -13,6 +13,8 @@
 
     text-decoration: none;
     color: initial;
+
+    white-space: nowrap;
 
     margin-right: auto;
 

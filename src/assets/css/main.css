@@ -1,12 +1,15 @@
 :root{
-    --color-primary: #2080FF;
-    --color-primary-transparent: #2080FF10;
+    --color-primary: #F25E0D;
+    --color-primary-transparent: #F25E0D10;
     --transition-primary: 400ms; 
-    --radius-primary: 30px;
+    --radius-primary: 8px;
+    --radius-secondary: 12px;
 }
 
 html{
     font-size: 16px;
+
+    background: #F8F8F8;
 }
 
 body{

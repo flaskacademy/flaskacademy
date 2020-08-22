@@ -2,8 +2,12 @@
 
 <div>
 
-    <h1>Hello world!</h1>
+    <h2>Guías</h2>
 
 </div>
 
 </template>
+
+<style scoped>
+
+</style>

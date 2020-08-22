@@ -18,6 +18,9 @@ export default {
     head: {
         link: [
             { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap' }
+        ],
+        script: [
+            { src: 'https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js' }
         ]
     }
 }
