@@ -39,7 +39,8 @@ export default {
             name: 'Flask Academy',
             short_name: 'Flask Academy',
             lang: 'es',
-            start_url: '/'
+            start_url: '/',
+            theme_color: '#272727'
         }
     },
     head: {
@@ -49,5 +50,20 @@ export default {
         script: [
             { src: 'https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js' }
         ]
+    },
+    vuetify: {
+        theme: {
+            dark: false,
+            themes: {
+                light: {
+                    primary: '#f20d5e',
+                    secondary: '#f25e0d'
+                },
+                dark: {
+                    primary: '#ff5c8b',
+                    secondary: '#ff8f42'
+                }
+            }
+        }
     }
 }

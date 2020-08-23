@@ -1,25 +1,20 @@
 <template>
 
-<div>
+<v-app>
     
-    <AppBar />
+    <AppBar/>
 
-    <div class="container">
+    <v-main>
 
-        <Nuxt />
+        <v-container>
 
-    </div>    
+            <Nuxt />
 
-</div>
+        </v-container>
+
+
+    </v-main>    
+
+</v-app>
 
 </template>
-
-<style scoped>
-
-.container{
-    margin: initial auto;
-    padding: 1rem;
-    max-width: 800px;
-}
-
-</style>

@@ -10,6 +10,7 @@
         "@nuxtjs/firebase": "^6.1.1",
         "@nuxtjs/pwa": "^3.0.1",
         "axios": "^0.20.0",
+        "email-validator": "^2.0.4",
         "firebase": "^7.19.0",
         "nuxt": "^2.14.3"
     },
